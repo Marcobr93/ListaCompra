@@ -31,6 +31,7 @@ public class Main {
                 case 5:
                     // Pagar
                     ListaCompra.pagar(compra);
+                    System.exit(0);
                     break;
                 default:
             }

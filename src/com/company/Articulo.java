@@ -4,19 +4,25 @@ package com.company;
  * Created by marco on 18/4/17.
  */
 public class Articulo {
+    /**
+     * Nombre del artículo de nuestra lista de la compra.
+     */
     protected String nombreArticulo;
+    /**
+     * Precio del producto de nuestra lista de la compra.
+     */
     protected double precioArticulo;
 
     // Constructores
 
     /**
-     * Constructor por defecto
+     * Constructor por defecto.
      */
     public Articulo() {
     }
 
     /**
-     * Constructor con los dos atributos
+     * Constructor con los dos atributos.
      * @param nombreArticulo
      * @param precioArticulo
      */
